@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../media/image_body.jpg);
+}
+
+h1{
+color: rgb(79, 213, 32)
+}
+
+section{
+width: 39%;
+height: 300px;
+margin-top: 80px;
+margin-left: 400px;
+background-image: url(../media/image_back.jpg);
+background-position: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.formulario{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* error.html */
+
+.video{
+  display: flex;
+  justify-content: center;
+}
+
+.back{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  background-color: rgb(39, 65, 22);
+}
