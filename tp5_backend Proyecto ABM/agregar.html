@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda</title>
+  </head>
+  <body>
+<h1>tienda de ropa</h1>
+<button type="submit" ><a href="index.html">inicio</a></button>
+<button type="submit" ><a href="listar.php">listar ropa</a></button>
+
+<h2>agregar prenda</h2>
+<p>ingrese los datos</p>
+
+<form action="agregar.php" method="POST" enctype="multipart/form-data">
+  <label>prenda</label>
+  <input type="text" name="prenda" placeholder="prenda" required>
+  <label>marca</label>
+  <input type="text" name="marca" placeholder="marca" required>
+  <label>talle</label>
+  <input type="text" name="talle" placeholder="talle" required>
+  <label>precio</label>
+  <input type="text" name="precio" placeholder="precio" required>
+  <label>imagen</label>
+  <input type="file" name="imagen" placeholder="imagen">
+  <input type="submit" name="submit" placeholder="ingresar">
+</form>
+
+  </body>
+</html>
